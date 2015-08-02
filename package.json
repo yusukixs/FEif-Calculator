@@ -1,0 +1,11 @@
+{
+  "name": "FEif-Calculator",
+  "version": "1.0.0",
+  "main": "index.html",
+  "window": {
+    "title": "FEif-Calculator",
+    "icon": "FEif_icon_11.png",
+    "toolbar": false,
+    "frame": true
+  }
+}

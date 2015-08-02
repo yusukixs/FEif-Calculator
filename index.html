@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FEif 成長率計算ツール</title>
+  <link rel="stylesheet" type="text/css" href="css/feif.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <script src="js/jquery-1.11.3.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/feif.js"></script>
+</head>
+
+<body>
+  <h2 class="field-block">ファイアーエムブレムif 成長率計算ツール</h2>
+
+  <div class="field-block">
+    <label class="radio-inline">
+      <input type="radio" name="version" value="0" checked="checked">白夜
+    </label>
+    <label class="radio-inline">
+      <input type="radio" name="version" value="1">暗夜
+    </label>
+    <label class="radio-inline">
+      <input type="radio" name="version" value="2">透魔
+    </label>
+  </div>
+
+  <div class="field-block">ユニット名
+    <select id="unit_select" name="unit" class="unit-select-box">
+    </select>
+  </div>
+
+  <div class="field-block" id="myunit_strong">長所
+    <select id="strong_select" name="strong_point" class="tarent-select-box">
+      <option value="0" selected="">健康</option>
+      <option value="1">力持ち</option>
+      <option value="2">頭が良い</option>
+      <option value="3">手先が器用</option>
+      <option value="4">素早い</option>
+      <option value="5">運が良い</option>
+      <option value="6">打たれ強い</option>
+      <option value="7">冷静沈着</option>
+    </select>
+    短所
+    <select id="weak_select" name="weak_point" class="tarent-select-box">
+      <option value="">選択してください</option>
+      <option value="0">病弱</option>
+      <option value="1">非力</option>
+      <option value="2">鈍感</option>
+      <option value="3">ドジ</option>
+      <option value="4">怠け者</option>
+      <option value="5" selected="">運が悪い</option>
+      <option value="6">打たれ弱い</option>
+      <option value="7">暴走しがち</option>
+    </select>
+  </div>
+
+  <div class="container">
+    <table id="growth_table" class="table table-striped table-bordered">
+      <thead>
+        <tr>
+          <th>クラス</th>
+          <th>ＨＰ</th>
+          <th>力　</th>
+          <th>魔力</th>
+          <th>技　</th>
+          <th>速さ</th>
+          <th>幸運</th>
+          <th>守備</th>
+          <th>魔防</th>
+        </tr>
+      </thead>
+      <tbody>
+      </tbody>
+    </table>
+  </div>
+</body>
+
+</html>

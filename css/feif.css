@@ -1,0 +1,20 @@
+body{
+  font-family:'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
+}
+
+.field-block {
+  margin: 20px;
+}
+
+.unit-select-box {
+  width: 150px;
+}
+
+.unit-show-button {
+  margin-left: 20px;
+}
+
+.tarent-select-box {
+  width: 150px;
+  margin-right: 20px;
+}
